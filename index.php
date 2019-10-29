@@ -1,13 +1,13 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Aš valdau HTML! <?php print ('ir PHP!'); ?></title>
-  </head>
-  <body>
-    <h1><b><i>Tautvydas</b></i> - HTML <?php print ('ir PHP '); ?> asas/ė!</h1>
-  <p> Moku kurti dinaminį turinį. </p>
-  <p> Atidaryta: <?php print(' Data: '); print(date("Y/m/d")); print(' Laikas: '); print(date("h:i:sa"));?>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title><?php print 'Aš, ' . date("w") . ' ir PHP'; ?></title>
+    </head>
+    <body>
+        <h1><b><i>Tautvydas</b></i> - HTML <?php print 'ir PHP '; ?> asas/ė jau nuo <?php print date("Y") . ' metų' ?></h1>
+    <p> Viskas prasidėjo <?php print date("m") . ' mėnesio, ' . date("d") . " dieną! " ?></p>
+    <p> 
+</body>
 </html>
