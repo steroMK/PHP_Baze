@@ -1,18 +1,19 @@
 <?php
-$img_src = 'https://i.pinimg.com/originals/9d/8d/d1/9d8dd1c483aff5cf974318c8c694cf8b.jpg';
+$h1 = rand(1, 100);
+$p = rand(100, 200);
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
         <title>HEHE</title>
-        <style>
-        </style>
     </head>
     <body>
-        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
-        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
-        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
-        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
+        <div>
+            <h1> Skolos skaiciuokle</h1>
+            <p> Jei paemei <?php print $p; ?> jievru</p>
+            <p> Su dviem kabanciais grazinsi <?php print $p; ?></p>
+            <p> Su vienu kabanciu grazinsi <?php print $p; ?></p>
+        </div>
     </body>
 </html>
