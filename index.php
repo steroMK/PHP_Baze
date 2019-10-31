@@ -1,25 +1,18 @@
-<?php 
-   $li_1='Šakotuvas';
-   $li_2=15;
-   $li_3=False;
-   $li_4=null;
-   
-   
+<?php
+$img_src = 'https://i.pinimg.com/originals/9d/8d/d1/9d8dd1c483aff5cf974318c8c694cf8b.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>HEHE</title>
         <style>
         </style>
     </head>
     <body>
-        <ul>
-            <li><?php print $li_1; ?></li>
-            <li><?php print $li_2; ?></li>
-            <li><?php print $li_3; ?></li>
-            <li><?php print $li_4; ?></li>
-        </ul>
+        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
+        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
+        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
+        <img src="<?php print $img_src; ?>" alt="Image" height="200" width="200">
     </body>
 </html>
