@@ -1,8 +1,11 @@
 <?php
+$didelis_kiausinis = 1;
+$mazas_baklazanas = 1;
+$grietines_indelis = 1;
 $maisto_lentyna = [
-    0 => 'Kiausinis',
-    1 => 'Baklazanas',
-    2 => 'Obuolys'
+    'Kiausiniai' => $didelis_kiausinis + $didelis_kiausinis,
+    'Baklazanai' => $mazas_baklazanas,
+    'Grietine' => $grietines_indelis
 ];
 var_dump($maisto_lentyna);
 ?>
