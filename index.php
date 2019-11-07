@@ -1,13 +1,15 @@
 <?php
-$didelis_kiausinis = 1;
-$mazas_baklazanas = 1;
-$grietines_indelis = 1;
-$maisto_lentyna = [
-    'Kiausiniai' => $didelis_kiausinis + $didelis_kiausinis,
-    'Baklazanai' => $mazas_baklazanas,
-    'Grietine' => $grietines_indelis
+$bowling = [
+    [
+        'svaru' => true,
+        'kegliu_isdestimas' => [1, 0, 1, 0, 0, 1, 1, 0, 0, 1] //Skaiciuojam x = is kaires i desine. y = is apacios i virsu.
+    ],
+    [
+        'svaru' => false,
+        'kegliu_isdestimas' => [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] //Skaiciuojam x = is kaires i desine. y = is apacios i virsu.
+    ]
 ];
-var_dump($maisto_lentyna);
+var_dump($bowling);
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
